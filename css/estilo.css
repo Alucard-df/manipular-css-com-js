@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #16161d;
+}
+
+.btn-alterar {
+    align-items: center;
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: aqua;
+    color: white;
+    border: 1px outset #ccc;
+}
+
+button:hover {
+    background-color: #050;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+.container {
+    margin: 20px 50px;
+}
+
+.container form{
+    display: flex;
+    justify-content: center;
+}
+
+.container form div {
+    padding: 15px 30px;
+    
+}
+
+.container form div:not(:last-child) {
+    border-right: 1px inset #aaa;
+}
+
+#tamanho-texto {
+    width: 40px;
+}

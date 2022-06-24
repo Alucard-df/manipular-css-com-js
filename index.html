@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fabiano de Assis">
+    <title>Manipular CSS com JS</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" media="all" />
+</head>
+<body id="body">
+    <header>
+        <div class="container">
+            <h1>Manipular CSS com JS</h1>
+            <hr>
+            <form onsubmit="return false">
+                <div>
+                    <label>Cor de texto:</label>
+                    <input type="color" id="cor-texto" value="#16161d" />
+                </div>
+                <div>
+                    <label>Cor de fundo:</label>
+                    <input type="color" id="cor-fundo" value="#ffffff" />
+                </div>
+                <div>
+                    <label>Tamanho do texto:</label> <br>
+                    <input type="number" id="tamanho-texto" value="12"/>
+                </div>
+                <div class="btn-alterar">
+                    <button onclick="alterarCss()">Alterar</button>
+                </div>                
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Título</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum soluta neque ipsam, sit sapiente error harum debitis consectetur dignissimos inventore in quod quibusdam, quam maxime architecto veniam! Alias, ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt autem mollitia itaque. Aliquam doloribus animi dicta nemo odit, quia voluptate facilis, obcaecati, consequatur laboriosam sed? Suscipit a doloremque quisquam mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in velit cumque perferendis. Impedit magnam laboriosam, aperiam est laborum exercitationem perspiciatis soluta commodi, et non optio magni. Doloremque, perspiciatis dolor.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum soluta neque ipsam, sit sapiente error harum debitis consectetur dignissimos inventore in quod quibusdam, quam maxime architecto veniam! Alias, ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt autem mollitia itaque. Aliquam doloribus animi dicta nemo odit, quia voluptate facilis, obcaecati, consequatur laboriosam sed? Suscipit a doloremque quisquam mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in velit cumque perferendis. Impedit magnam laboriosam, aperiam est laborum exercitationem perspiciatis soluta commodi, et non optio magni. Doloremque, perspiciatis dolor.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum soluta neque ipsam, sit sapiente error harum debitis consectetur dignissimos inventore in quod quibusdam, quam maxime architecto veniam! Alias, ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt autem mollitia itaque. Aliquam doloribus animi dicta nemo odit, quia voluptate facilis, obcaecati, consequatur laboriosam sed? Suscipit a doloremque quisquam mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in velit cumque perferendis. Impedit magnam laboriosam, aperiam est laborum exercitationem perspiciatis soluta commodi, et non optio magni. Doloremque, perspiciatis dolor.</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
